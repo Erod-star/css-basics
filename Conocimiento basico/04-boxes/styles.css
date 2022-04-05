@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 40px;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#cajas{
+    max-width: 1035px;
+    border: 1px solid black;
+}
+
+.caja {
+    display: block;
+    width: 250px;
+    height: 250px;
+    min-width: none;
+    max-width: none;
+    background-color: lightblue;
+    border: 10px solid yellow;
+    margin: 15px; /* Aplica margenes a todos los lados */
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 24px;
+    margin-right: 10px;
+    padding: 20px; /* Agrega espacios dentro del contenedor */
+    padding-bottom: 24px;
+
+    float: left; /* Permite mover elementos */
+}
+
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 235px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.no-float-element{
+    padding-top: 25px;
+}

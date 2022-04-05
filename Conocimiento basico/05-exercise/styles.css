@@ -1,0 +1,141 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.main-container {
+  border: 1px solid black;
+  margin: 0px auto;
+  padding-top: 20px;
+  width: 1200px;
+}
+
+#cabecera {
+  background-color: blue;
+  color: white;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+#navbar {
+  background-color: black;
+}
+
+#navbar ul li {
+  /* display: inline-block; */
+  border-right: 1px solid white;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+#navbar ul li a {
+  color: white;
+}
+
+#navbar ul li:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+#navbar ul li:hover a {
+  display: block;
+  color: white;
+}
+
+#elementos {
+  float: left;
+  width: 69%;
+}
+
+#lateral {
+  border: 1px solid red;
+  float: left;
+  max-height: 650px;
+  min-height: 500px;
+  overflow-y: scroll;
+  text-align: justify;
+  width: 30%;
+}
+
+#elementos .caja {
+  background-color: #ccc;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 5px 1px 15px gray;
+  color: black;
+  float: left;
+  height: 250px;
+  line-height: 210px;
+  margin: 3%;
+  margin-left: 40px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+#elementos h1 {
+  border-bottom: 3px solid black;
+  color: gray;
+  padding-bottom: 10px;
+  text-align: center;
+  text-shadow: 0px 0px 2px gray;
+}
+
+.sombra-interior {
+  box-shadow: 5px 5px 10px gray inset !important;
+}
+
+footer {
+  background: #444;
+  color: #eee;
+  border-top: 1px solid #ccc;
+  height: 55x;
+  line-height: 55px;
+  text-align: center;
+  width: 100%;
+}
+
+.libre {
+  background-color: red;
+  border: 1px solid black;
+  color: white;
+  font-size: 13px;
+  height: 50px;
+  left: 50%;
+  position: absolute;
+  top: 300px;
+  width: 50px;
+}
+
+.libre1 {
+  z-index: 2;
+}
+
+.libre2 {
+  background-color: green;
+  top: 280px;
+  left: 50%;
+  z-index: 1;
+}
+
+.fija {
+  background-color: blue;
+  border: 1px solid black;
+  color: white;
+  font-size: 13px;
+  height: 50px;
+  width: 50px;
+
+  position: fixed;
+  left: 0px;
+  top: 50%;
+}

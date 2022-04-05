@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+#container {
+  width: 70%;
+  background: red;
+  margin: 0px auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  line-height: 150px;
+  background: lightskyblue;
+  color: #333;
+  text-align: center;
+}
+
+aside {
+  background: #ccc;
+  float: left;
+  line-height: 700px;
+  min-height: 700px;
+  text-align: center;
+  width: 25%;
+}
+
+#articles {
+  background-color: lemonchiffon;
+  float: left;
+  min-height: 700px;
+  width: 75%;
+}
+
+#articles article {
+  background: peru;
+  border-bottom: 2px solid white;
+  color: white;
+  float: left;
+  height: 150px;
+  line-height: 150px;
+  margin: 15px;
+  text-align: center;
+  transition: 500ms ease;
+  width: 25%;
+}
+
+/* R E S P O N S I V E */
+
+/* Desde la anchura 0px hasta 888px de pantalla se ejecutaran estos estilos */
+/* A partir de este se ejecutarán los estilos por defecto */
+@media (max-width: 888px) {
+  #articles article {
+    width: 40%;
+    background: red;
+  }
+}
+
+@media (max-width: 632px) {
+  #articles {
+    width: 100%;
+  }
+
+  #articles article {
+    width: 90%;
+    background: blueviolet;
+  }
+  aside {
+    float: none;
+    line-height: 20px;
+    min-height: auto;
+    padding: 20px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 554px) {
+  #articles article {
+    width: 90%;
+    background: lightsalmon;
+  }
+}

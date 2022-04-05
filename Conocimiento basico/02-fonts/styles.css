@@ -1,0 +1,38 @@
+@font-face {
+    font-family: BebasNeueCustom;
+    src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+h1{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-style: italic; /*  Propiedad para poner texto en cursiva */
+    text-transform: uppercase; /*  Propiedad para poner texto en mayúsculas/minúsculas */
+    font-size: 45px;
+
+    /* Colores */
+
+    /* Colores del sistema */
+    color: mediumpurple;
+
+    /* Colores hexadecimales */
+    color: rgb(138, 132, 132);
+
+    /* Colores RGB */
+    color: rgb(255, 225, 107);
+    
+    /* Colores RGBA */
+    color: rgba(255, 225, 107, 0.5);
+
+}
+
+h3{
+    font-family: BebasNeueCustom, Comic Sans MS;
+    font-size: 35px;
+    color: olive;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 200; /*  Propiedad para poner texto en negritas */
+}

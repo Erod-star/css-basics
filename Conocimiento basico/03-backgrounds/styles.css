@@ -1,0 +1,36 @@
+body{
+    background-color: #ccc;
+    
+    /*          
+    background-image: url("images/image5.jpg");
+    background-repeat: no-repeat;  Repetición de imagen de fondo 
+    background-size: 100%;
+    background-attachment: fixed;  /* Fixed: La imagen se quedá fija al scrollear */
+    /* background-position: left bottom; */ 
+    color: black;
+    font-weight: bold; 
+    text-indent: 15px; /* La sangría */
+    
+    /*     
+    word-spacing: 10px; /* Espacio entre palabras 
+    letter-spacing: 5px; /* Espacio entre letras */
+} 
+
+#caja{
+    border: 5px solid black;
+    padding: 1em;
+    background-color: rgb(212, 212, 41);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 50px; /* Altura de línea */
+    text-transform: uppercase;
+    text-decoration: line-through;
+    vertical-align: top;
+}
+
+h2{
+    color: rgb(212, 212, 41);
+    background-image: url("images/image2.png");
+    border: 5px solid black
+}
